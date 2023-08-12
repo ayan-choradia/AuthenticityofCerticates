@@ -5,13 +5,13 @@ library Product_Lib{
   
   struct Product {
     string name;
-    uint256 manufacturingDate;
-    uint256 transferDate;
-    uint256 expiryDate;
-    string currentOwner;
-    string OwnerlicenseNumber;
-    address currentOwnerHash;
-    string MedicineID;
+    uint256 DateofApplication;
+    uint256 totalincome;
+    uint256 dateofbirth;
+    string otherasset;
+    string sibling;
+    address totalsizeofplot;
+    string copyofitr;
     string qrCode;
   }
 }
